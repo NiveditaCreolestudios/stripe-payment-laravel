@@ -1,4 +1,4 @@
-# stripe-payment-php
+# stripe-payment-laravel
 
 Assuming your are done with complete setup of laravel.
 
