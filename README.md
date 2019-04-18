@@ -15,7 +15,8 @@ There are two types of key
 We can set this in services.php
 
 e.g
-	`stripe' => [
+	
+    `stripe' => [
         'model' => App\User::class,
         'key' => env('STRIPE_KEY','{publishable-key-here}'),
         'secret' => env('STRIPE_SECRET','{secret-key-here}'),
@@ -28,4 +29,5 @@ e.g
 And you can use this keys in your controller using
 
 `Stripe::setApiKey(Config('services.stripe.key'));`
+
 `Stripe::setApiKey(Config('services.stripe.secret'));`
